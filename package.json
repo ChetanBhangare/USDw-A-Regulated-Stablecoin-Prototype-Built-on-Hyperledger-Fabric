@@ -1,0 +1,18 @@
+{
+  "name": "usdw-contract",
+  "version": "1.0.0",
+  "description": "USDw regulated stablecoin smart contract for Hyperledger Fabric",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.0",
+    "fabric-shim": "^2.5.0"
+  }
+}
